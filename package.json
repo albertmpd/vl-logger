@@ -1,0 +1,26 @@
+{
+  "name": "vl-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertmpd/vl-logger.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "viewlift",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^4.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "intercept-stdout": "^0.1.2",
+    "mocha": "^5.2.0"
+  }
+}
