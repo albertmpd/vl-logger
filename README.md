@@ -15,7 +15,7 @@ let SERVICE_NAME = 'a-service-name';
 let SERVICE_LOGLEVEL = 'debug'; //possible values 'silly', 'verbose', 'debug', 'info', 'warn', 'error'
 
 if (!logger) {
-  logger = Logger.createWinstonLogger({ name: SERVICE_NAME }, { logLevel: SERVICE_LOGLEVEL });
+  logger = Logger.createConsoleLogger({ name: SERVICE_NAME }, { logLevel: SERVICE_LOGLEVEL });
 }
 
 logger.debug('Started %s level %s...', SERVICE_NAME, SERVICE_LOGLEVEL);
