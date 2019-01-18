@@ -9,7 +9,7 @@ Example Usage
 // Singleton logger
 // Is called once per lambda instance start up (not per invocations)
 
-let Logger = require('viewlift-logger');
+let Logger = require('vs-logger');
 let logger = null;
 let SERVICE_NAME = 'a-service-name';
 let SERVICE_LOGLEVEL = 'debug'; //possible values 'silly', 'verbose', 'debug', 'info', 'warn', 'error'
@@ -36,5 +36,4 @@ logger.info('some value !!!');
 ```
 dependencies
   convict
-  winston
 ```
