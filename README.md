@@ -9,7 +9,7 @@ Example Usage
 // Singleton logger
 // Is called once per lambda instance start up (not per invocations)
 
-let Logger = require('vs-logger');
+let Logger = require('vl-logger');
 let logger = null;
 let SERVICE_NAME = 'a-service-name';
 let SERVICE_LOGLEVEL = 'debug'; //possible values 'silly', 'verbose', 'debug', 'info', 'warn', 'error'
